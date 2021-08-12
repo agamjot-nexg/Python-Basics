@@ -1,6 +1,6 @@
-# name = input("Enter name:")
-# age = input("How old are you {0}?:".format(name))
-# # print("You are {0} years old {1}".format(age, name))
+name = input("Enter name:")
+age = input("How old are you {0}?:".format(name))
+print("You are {0} years old {1}".format(age, name))
 
 # Take input as int to avoid decimal value in line 15
 age = int(input("Please enter your age:"))
